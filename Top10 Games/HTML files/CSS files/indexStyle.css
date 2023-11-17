@@ -1,0 +1,209 @@
+header, body{
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+
+/*Header section*/
+
+.headerBackground {
+    background-color: midnightblue;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    color: #111;
+    transform: scale(1.2);
+    text-shadow: none;
+}
+
+.navBar {
+    position: absolute;
+    margin-left: 28%;
+    margin-top: -85px;
+    margin-right: 8%;
+}
+.navBar li{
+    display: inline;
+    padding: 8px;
+    font-family: Goudy Old Style;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.bijoystick {
+    width: 100px;
+    height: 100px;
+    padding-top: 26px
+}
+
+/*Body section*/
+
+/*Explore New Gmaes Section*/
+.ExploreNewGames1Div {
+    border-width: 3px;
+    box-shadow: 1px 1px 6px grey, -1px -1px 6px grey;
+    border-radius: 14px;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 30%;
+    padding: 5px;
+    padding-left: 35px;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: Goudy Old Style;
+}
+
+.ExploreNewGames2Div {
+    border-width: 3px;
+    box-shadow: 1px 1px 6px grey, -1px -1px 6px grey;
+    border-radius: 14px;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 30%;
+    padding: 5px;
+    padding-left: 35px;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: Goudy Old Style;
+}
+
+.exploreMoreGames3Div {
+    border-width: 3px;
+    box-shadow: 1px 1px 6px grey, -1px -1px 6px grey;
+    border-radius: 14px;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-right: 1px;
+    padding: 5px;
+    column-count: 3;
+    column-gap: 6px;
+}
+
+.imgMore2, .imgMore3 {
+    padding-top: 0.5px;
+}
+
+
+.MoreBtnDiv {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ExploreGamesBtn {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 15px 32px;
+    border-radius: 10px;
+}
+
+.ExploreGamesBtn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+/*Aside Section*/
+
+aside {
+    text-align: center;
+    width: 20%;
+    height: 50%;
+    padding: 10px;
+    padding-left: 14px;
+    float: right;
+    background-color: lightgray;
+    border-radius: 14px;
+}
+
+aside figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TopMoreGamesBtn {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 15px 32px;
+    border-radius: 10px;
+}
+
+.TopMoreGamesBtn:hover {
+    background-color: #555555;
+    color: white;
+    background-color: #555555;
+    color: white;
+}
+
+    /*Footer section*/
+
+footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    height: 140px;
+}
+
+.FooterContent {
+    display: flex;
+}
+
+.FirstFooter {
+    position: center;
+    display: flex;
+}
+
+.bijoystickFooter {
+    width: 100px;
+    height: 100px;
+}
+
+.FirstFooterPar {
+    margin-top: auto;
+    width: 10%;
+    text-align: center;
+}
+
+
+.SecondFooter {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FooterNavBar li {
+    display: block;
+    padding-top: 10px;
+    font-family: Goudy Old Style;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+

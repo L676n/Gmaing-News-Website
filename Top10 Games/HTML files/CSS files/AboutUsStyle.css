@@ -1,0 +1,107 @@
+header, body {
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+
+/*Header section*/
+
+.headerBackground {
+    background-color: midnightblue;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+    a:hover {
+        color: #111;
+        transform: scale(1.2);
+        text-shadow: none;
+    }
+
+.navBar {
+    position: absolute;
+    margin-left: 28%;
+    margin-top: -85px;
+    margin-right: 8%;
+}
+
+    .navBar li {
+        display: inline;
+        padding: 8px;
+        font-family: Goudy Old Style;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+.bijoystick {
+    width: 100px;
+    height: 100px;
+    padding-top: 26px
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+/*Footer section*/
+footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    height: 140px;
+}
+
+.FooterContent {
+    display: flex;
+}
+
+.FirstFooter {
+    position: center;
+    display: flex;
+}
+
+.bijoystickFooter {
+    width: 100px;
+    height: 100px;
+}
+
+.FirstFooterPar {
+    margin-top: auto;
+    width: 10%;
+    text-align: center;
+}
+
+
+.SecondFooter {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FooterNavBar li {
+    display: block;
+    padding-top: 10px;
+    font-family: Goudy Old Style;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
